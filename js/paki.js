@@ -37,7 +37,7 @@ let images = [];
 images["Gyarados"] = "img/gyaradoss.png";
 images["Pikachu"] = "img/pikachuu.png";
 images["Charizard"] = "img/charizard.png";
-images["Bulbasaur"] = "img/bulbasaur.png";
+images["Bulbasaur"] = "img/bulbasaurr.png";
 images["Squirtle"] = "img/squirtle.png";
 images["Pidgeotto"] = "img/pidgeotto.png";
 
