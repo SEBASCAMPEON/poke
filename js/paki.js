@@ -34,8 +34,8 @@ Polimorfismo
 Diferentes Clases podrían definir el mismo método o propiedad.
 */
 let images = [];
-images["Gyarados"] = "img/gyarados.png";
-images["Pikachu"] = "img/pikachu.png";
+images["Gyarados"] = "img/gyaradoss.png";
+images["Pikachu"] = "img/pikachuu.png";
 images["Charizard"] = "img/charizard.png";
 images["Bulbasaur"] = "img/bulbasaur.png";
 images["Squirtle"] = "img/squirtle.png";
