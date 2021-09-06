@@ -33,8 +33,6 @@ que un objeto debe ser capaz de simular en un modelo de la realidad.
 Polimorfismo
 Diferentes Clases podrían definir el mismo método o propiedad.
 */
-let columnastabla = document.getElementById("columnstable");
-
 let images = [];
 images["Gyarados"] = "img/gyarados.png";
 images["Pikachu"] = "img/pikachu.png";
