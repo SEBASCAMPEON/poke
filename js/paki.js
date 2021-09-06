@@ -36,9 +36,9 @@ Diferentes Clases podrían definir el mismo método o propiedad.
 let columnastabla = document.getElementById("columnstable");
 
 let images = [];
-images["Gyarados"] = "img/Gyarados.png";
-images["Pikachu"] = "img/Pikachu.png";
-images["Charizard"] = "img/Charizard.png";
+images["Gyarados"] = "img/gyarados.png";
+images["Pikachu"] = "img/pikachu.png";
+images["Charizard"] = "img/charizard.png";
 images["Bulbasaur"] = "img/bulbasaur.png";
 images["Squirtle"] = "img/squirtle.png";
 images["Pidgeotto"] = "img/pidgeotto.png";
