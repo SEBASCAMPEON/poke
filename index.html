@@ -3,25 +3,58 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Pakiman</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Sebastián Gallego - Bastianburst">
+    <title>Pokédex</title>
+    <link rel="shortcut icon" href="img/icons/pokedex.ico"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/tabla.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-    <table>
-        <tr id="columnstable">
-            <th>
+    <div class="containerpr">
+        <table class="table table-dark">
 
-            </th>
-        </tr>
-        <tr id="rowstables">
-            <td>
-            </td>
-        </tr>
-    </table>
+            <thead>
 
-    <script type="text/javascript" src="js/pakiclass.js"></script>
-    <script type="text/javascript" src="js/paki.js"></script>
+                <tr>
+                    <th scope="col"><img class="imgpoke" src="img/pokedex.png" width="50px" height="50px" /></th>
+                    <th scope="col"></th>
+                    <th scope="col"></th>
+                    <th scope="col"></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td id="nombrepoke1"></td>
+                    <td id="infopoke1"></td>
+                    <td id="nombrepoke4"></td>
+                    <td id="infopoke4"></td>
+                </tr>
+                <tr>
+                    <td id="nombrepoke2"></td>
+                    <td id="infopoke2"></td>
+                    <td id="nombrepoke5"></td>
+                    <td id="infopoke5"></td>
+                </tr>
+                <tr>
+                    <td id="nombrepoke3"></td>
+                    <td id="infopoke3"></td>
+                    <td id="nombrepoke6"></td>
+                    <td id="infopoke6"></td>
+                </tr>
+            </tbody>
+            <!---->
+        </table>
+    </div>
+
+    <script preload type="text/javascript" src="js/pakiclass.js"></script>
+    <script preload type="text/javascript" src="js/paki.js"></script>
 </body>
 
 </html>

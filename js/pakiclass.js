@@ -10,27 +10,37 @@ class Pakiman {
         this.def = def;
 
         this.imagen.src = images[this.nombre];
-        this.imagen.style.height = "80px";
+        this.imagen.style.height = "100px";
+        this.imagen.className = "imagenpokemon";
 
         this.stamina.src = "img/stamina.png";
         this.stamina.style.height = "20px";
+        this.stamina.style.display ="block";
     }
     //dentro de las clases no es necesario escribir function
     talk() {
         console.log(this.nombre);
     }
 
+    showImage(){
+        return this.imagen
+    }
+
+    showStamina(){
+        return this.stamina;
+    }
+
     showInfo() {
-        document.write("<div style='display:block; margin-right: 10px; padding:5px;'>");
-        document.body.appendChild(this.imagen);
-        document.body.appendChild(this.stamina);
-        document.write("</div>");
-        document.write("<div style='display:inline-block; margin-right: 10px; padding:5px;'>");
-        document.write("<br>");
-        document.write("<br><strong>" + this.nombre + "</strong><br />");
-        document.write("St: " + this.vida + "<br>");
-        document.write("Atk: " + this.atk + "<br/>");
-        document.write("Def: " + this.atk + "<br>");
-        document.write("</div>");
+        let text = "<div class='text_div_info' style='display:block; margin-right: 10px; padding:5px;'>" + 
+        "<div style='display:inline-block; margin-right: 10px; padding:5px;'>" +
+        "<br>" +
+        "<br><p><strong>" + this.nombre + "</strong></p>" +
+        "<p>St: " + this.vida + "</p>" +
+        "<p>Atk: " + this.atk + "</p>" +
+        "<p>Def: " + this.atk + "</p>" +
+        "<p>Tp: " + this.tipo + "</p>" +
+        "</div>" +
+        "</div>";
+        return text;
     }
 }
