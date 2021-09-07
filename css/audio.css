@@ -1,0 +1,14 @@
+#audio{
+    visibility: hidden;
+}
+#audio::after{
+    background-image: url(../img/);
+}
+.audio_container{
+    position: fixed;
+    right: 2em;
+    bottom: 2em;
+}
+#pikarepro{
+    cursor: pointer;
+}

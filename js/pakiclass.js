@@ -1,6 +1,6 @@
 
 class Pakiman {
-    constructor(nombre, vida, tipo, atk, def) {
+    constructor(nombre, vida, tipo, atk, def, desc) {
         this.stamina = new Image();
         this.imagen = new Image();
         this.tipo = tipo;
@@ -8,6 +8,8 @@ class Pakiman {
         this.vida = vida;
         this.atk = atk;
         this.def = def;
+        this.desc = desc;
+        //this.scream.src = sound[this.nombre];
 
         this.imagen.src = images[this.nombre];
         this.imagen.style.height = "100px";
@@ -37,10 +39,15 @@ class Pakiman {
         "<br><p><strong>" + this.nombre + "</strong></p>" +
         "<p>St: " + this.vida + "</p>" +
         "<p>Atk: " + this.atk + "</p>" +
-        "<p>Def: " + this.atk + "</p>" +
+        "<p>Def: " + this.def + "</p>" +
         "<p>Tp: " + this.tipo + "</p>" +
         "</div>" +
         "</div>";
         return text;
+    }
+
+    showDesc(){
+        let description = "<p>" + this.desc + "</p>";
+        return description;
     }
 }

@@ -1,0 +1,13 @@
+body{
+    background-image: url(../img/fondopoke.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.containerpr{
+    text-align: center;
+    display: block;
+    margin-top: 2em;
+}

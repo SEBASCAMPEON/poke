@@ -1,0 +1,11 @@
+#infopokemon{
+    background-color: white;
+    border: 1px solid saddlebrown ;
+    border-radius: 5px;
+    border-width:8px; 
+    border-style:double;
+    display: inline-block;
+    min-height: 100px;
+    min-width: 100px;
+    max-width: 28em;
+}
